@@ -18,7 +18,7 @@ const Home = () => {
                 <DonorLinkLogo />
                 <OnboardingLogo />
                 <TouchableOpacity style={{width: 360, height: 40, backgroundColor: '#87A7AE', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <Link href='/signIn'>
+                    <Link href='/signUp'>
                         <Text style={{fontSize: 12, color: '#FFF', fontWeight: 700}}>
                             Continue
                         </Text>
