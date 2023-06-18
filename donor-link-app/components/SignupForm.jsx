@@ -44,7 +44,7 @@ const SignUpForm = () => {
         </View>
 
         <View>
-        <Link href='/signIn'>
+        <Link href='/email_Auth'>
         <TouchableOpacity  style={{backgroundColor:'#E0E0E0', height:41 , width:300, marginLeft:15, marginTop:32, borderRadius:6 , alignItems:'center', paddingTop:10, fontSize:16}}>
         <Text style={{fontWeight:700}}>Create an Account</Text>
         </TouchableOpacity>

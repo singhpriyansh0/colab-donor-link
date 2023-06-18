@@ -1,5 +1,6 @@
 
 import React from 'react'
+import {Link } from "expo-router"
 import { useState } from 'react';
 import { StyleSheet, Text, View ,TextInput , TouchableOpacity} from 'react-native'
 
@@ -32,9 +33,11 @@ const SignInForm = () => {
         </View>
 
         <View>
+        <Link href='/email_Auth'>
         <TouchableOpacity style={{backgroundColor:'#E0E0E0', height:41 , width:300, marginLeft:15, marginTop:32, borderRadius:6 , alignItems:'center', paddingTop:10, fontSize:16}} >
         <Text style={{fontWeight:700}}>Login</Text>
-      </TouchableOpacity>
+        </TouchableOpacity>
+        </Link>
         </View>
     </View>
   )
