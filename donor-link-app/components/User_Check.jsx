@@ -12,16 +12,20 @@ const User_Check = () => {
         <Text style={{ fontSize: 18 ,  fontWeight:600, marginTop:125, }}>Are you creating this account for</Text>
         <Text style={{alignItems:'center', fontSize: 18 ,  fontWeight:600}} >yourself or on the behalf of a recipient?</Text>
         <div style={{alignItems:"center", marginLeft:3}}>
+        <View style={{alignItems:'center'}}>
        <Link href='/recepent/process_info'>
-        <View>
+        
           <TouchableOpacity style={{backgroundColor:'white', borderWidth:1, height:88 , width:361, marginLeft:3, marginTop:125, borderRadius:6 , alignItems:'center', paddingTop:10 }}><Text style={{fontSize:14, fontWeight:700, marginTop:23}}> For Myself</Text></TouchableOpacity>
-        </View>
+        
         </Link>
-        <Link href='/recepent/process_info'>
+        </View>
         <View>
+        <Link href='/recepent/process_info'>
+        
           <TouchableOpacity style={{backgroundColor:'white', borderWidth:1, height:88 , width:361, marginLeft:3, marginTop:15, borderRadius:6 , alignItems:'center', paddingTop:10 }}><Text style={{fontSize:14, fontWeight:700, marginTop:23}}> On Behalf of Someone Else </Text></TouchableOpacity>
-        </View>
+        
         </Link>
+        </View>
         </div>
         <View>
         </View> 

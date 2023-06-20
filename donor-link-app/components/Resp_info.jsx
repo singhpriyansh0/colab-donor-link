@@ -12,7 +12,8 @@ const Resp_info = () => {
     <View style={{ alignItems:'center'}}>
         <Text style={{ fontSize: 18 ,  fontWeight:600, marginTop:125, }}>The Process </Text>
         <Text style={{alignItems:'center', fontSize: 18 ,  fontWeight:600}} >recipient?</Text>
-        <View ><Image   source={require('../assets/Process12.png')} /></View>
+        <View ><Image    source={require('../assets/Process12.png')} /></View>
+        <img src='C:\Users\priya\Downloads\colab-donor-link-main (1)\colab-donor-link-main\donor-link-app\assets\Process12.png'></img>
         <div style={{alignItems:"center", marginLeft:3}}>
        <Link href='/'>
         <View>
